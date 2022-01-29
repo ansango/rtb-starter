@@ -38,9 +38,11 @@ This project has been created to generate component libraries in [React](https:/
 
 It is based on [React](https://reactjs.org/), [Tailwindcss](https://tailwindcss.com/), and [Storybook](https://storybook.js.org/). With this starter you can start writing isolated and tested components, ready to publish and consume as packages in [npm](https://www.npmjs.com/).
 
+> The demo package is published in [npm](https://www.npmjs.com/package/rtb-starter)
+
 ### Built with
 
-<div style="display:flex; align-items:center;">
+<div style="display:flex; align-items:center; flex:wrap;">
   <a href="https://reactjs.org/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
     <img src="assets/react.svg" width="60" height="60" />
   </a>
@@ -72,15 +74,13 @@ It is based on [React](https://reactjs.org/), [Tailwindcss](https://tailwindcss.
   <a href="https://rollupjs.org/guide/en/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
     <img src="assets/rollup.svg" width="60" height="60" />
   </a>
-  
-</div>
-<div style="display:flex; align-items:center;">
-<a href="https://plopjs.com/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
+  <a href="https://plopjs.com/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
     <span
       style="width: 60px; height: 60px; display: flex; justify-content: center; alignItems: center;">
       <h4 style="font-weight: bold; cursor: pointer">Plop.js</h4>
     </span>
   </a>
+
   <a href="https://typicode.github.io/husky/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
     <span style="width: 60px; height: 60px; display: flex; justify-content: center; alignItems: center;">
       <h4 style="font-weight: bold; cursor: pointer">Husky</h4>
