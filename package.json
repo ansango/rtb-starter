@@ -1,7 +1,7 @@
 {
   "name": "rtb-starter",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,21 @@
     "type": "git",
     "url": "https://github.com/ansango/rtb-starter.git"
   },
+  "homepage": "https://rtb-starter.vercel.app/",
+  "keywords": [
+    "react",
+    "typescript",
+    "tailwindcss",
+    "storybook",
+    "jest",
+    "react-unit-testing",
+    "eslint",
+    "prettier",
+    "rollup",
+    "plop",
+    "huksy",
+    "starter"
+  ],
   "peerDependencies": {
     "postcss": "^8.4.5",
     "react": "^17.0.2",
