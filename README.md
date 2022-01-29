@@ -5,7 +5,7 @@
 
 <div align="center">
  <a href="https://github.com/ansango/rtb-starter">
-    <img src="static/logo.svg" alt="Logo" width="180" height="180">
+    <img src="assets/logo.svg" alt="Logo" width="180" height="180">
   </a>
   <h1 align="center">React Tailwind Blocks - Starter</h1>
 
