@@ -54,6 +54,7 @@ It is based on [React](https://reactjs.org/), [Tailwindcss](https://tailwindcss.
 - [_Prettier_](https://prettier.io/)
 - [_Rollup_](https://rollupjs.org/guide/en/)
 - [Plop js!](https://plopjs.com/)
+- [Husky](https://typicode.github.io/husky/#/)
 
 ## Getting Started
 
@@ -213,7 +214,7 @@ Then add your script into `package.json` and run!
 
 <p align="right"><a href="#top">back to top</a></p>
 
-## Test and lint
+## Test, lint & Husky
 
 You can run unit tests in **watch mode** or run all serial tests **in current process**:
 
@@ -233,6 +234,8 @@ Or run [ESLint](https://eslint.org/):
 ```bash
   yarn lint
 ```
+
+Before you can commit to your repository ESlint and all tests will be run, if they fail [Husky](https://typicode.github.io/husky/#/) will not let you commit.
 
 <p align="right"><a href="#top">back to top</a></p>
 
