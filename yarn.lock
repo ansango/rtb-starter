@@ -2000,6 +2000,23 @@
     global "^4.4.0"
     regenerator-runtime "^0.13.7"
 
+"@storybook/addons@^6.4.15":
+  version "6.4.15"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-6.4.15.tgz#cf0dc7b82464baf96d1501f0ab69f18ad0e14f1a"
+  integrity sha512-sYytxqlCmJ2ZtOYAGXOZdLHtQjdtUn9KwxMqwdPS/uyENjvMEYmj5xsFfQomsCL4XQzpGBl7hzYJsRA+OHIxHA==
+  dependencies:
+    "@storybook/api" "6.4.15"
+    "@storybook/channels" "6.4.15"
+    "@storybook/client-logger" "6.4.15"
+    "@storybook/core-events" "6.4.15"
+    "@storybook/csf" "0.0.2--canary.87bc651.0"
+    "@storybook/router" "6.4.15"
+    "@storybook/theming" "6.4.15"
+    "@types/webpack-env" "^1.16.0"
+    core-js "^3.8.2"
+    global "^4.4.0"
+    regenerator-runtime "^0.13.7"
+
 "@storybook/api@6.4.15":
   version "6.4.15"
   resolved "https://registry.npmjs.org/@storybook/api/-/api-6.4.15.tgz"
@@ -2686,6 +2703,24 @@
 "@storybook/theming@6.4.15":
   version "6.4.15"
   resolved "https://registry.npmjs.org/@storybook/theming/-/theming-6.4.15.tgz"
+  integrity sha512-1968vqrvMRo6Ivpu9aWOZ9MdSXKxWB/yI8i3PAN+WaSDnkGf+w2b3Tjgcx9pJiIvO025tuhCg7vhU2snXVYOTg==
+  dependencies:
+    "@emotion/core" "^10.1.1"
+    "@emotion/is-prop-valid" "^0.8.6"
+    "@emotion/styled" "^10.0.27"
+    "@storybook/client-logger" "6.4.15"
+    core-js "^3.8.2"
+    deep-object-diff "^1.1.0"
+    emotion-theming "^10.0.27"
+    global "^4.4.0"
+    memoizerific "^1.11.3"
+    polished "^4.0.5"
+    resolve-from "^5.0.0"
+    ts-dedent "^2.0.0"
+
+"@storybook/theming@^6.4.15":
+  version "6.4.15"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.4.15.tgz#330c4d729c1b49c569b728e705ba6b5e9aab8e31"
   integrity sha512-1968vqrvMRo6Ivpu9aWOZ9MdSXKxWB/yI8i3PAN+WaSDnkGf+w2b3Tjgcx9pJiIvO025tuhCg7vhU2snXVYOTg==
   dependencies:
     "@emotion/core" "^10.1.1"
