@@ -40,17 +40,53 @@ It is based on [React](https://reactjs.org/), [Tailwindcss](https://tailwindcss.
 
 ### Built with
 
-- [_React_](https://reactjs.org/)
-- [_Typescript_](https://www.typescriptlang.org/)
-- [_Tailwindcss_](https://tailwindcss.com/)
-- [_Storybook_](https://storybook.js.org/)
-- [_Jest_](https://jestjs.io/)
-- [_React Testing Library_](https://testing-library.com/docs/react-testing-library/intro/)
-- [_ESlint_](https://eslint.org/)
-- [_Prettier_](https://prettier.io/)
-- [_Rollup_](https://rollupjs.org/guide/en/)
-- [Plop js!](https://plopjs.com/)
-- [Husky](https://typicode.github.io/husky/#/)
+<div style="display:flex; align-items:center;">
+  <a href="https://reactjs.org/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
+    <img src="assets/react.svg" width="60" height="60" />
+  </a>
+  
+  <a href="https://www.typescriptlang.org/" target="_blank" style="padding:0 5px 0 5px; text-align:center;">
+    <img src="assets/typescript.svg" width="60" height="60" />
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank" style="padding:0 5px 0 5px; text-align:center;">
+    <img src="assets/tailwindcss.svg" width="60" height="60" />
+  </a>
+  <a href="https://storybook.js.org/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
+    <img src="assets/storybook.svg" width="60" height="60" />
+  </a>
+  <a href="https://jestjs.io/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
+    <img src="assets/jest.svg" width="60" height="60" />
+  </a>
+  <a
+    href="https://testing-library.com/docs/react-testing-library/intro/"
+    target="_blank"
+    style="padding:0 5px 0 5px; text-align:center">
+    <img src="assets/testinglibrary.svg" width="60" height="60" />
+  </a>
+  <a href="https://eslint.org/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
+    <img src="assets/eslint.svg" width="60" height="60" />
+  </a>
+  <a href="https://prettier.io/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
+    <img src="assets/prettier.svg" width="60" height="60" />
+  </a>
+  <a href="https://rollupjs.org/guide/en/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
+    <img src="assets/rollup.svg" width="60" height="60" />
+  </a>
+  
+</div>
+<div style="display:flex; align-items:center;">
+<a href="https://plopjs.com/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
+    <span
+      style="width: 60px; height: 60px; display: flex; justify-content: center; alignItems: center;">
+      <h4 style="font-weight: bold; cursor: pointer">Plop.js</h4>
+    </span>
+  </a>
+  <a href="https://typicode.github.io/husky/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
+    <span style="width: 60px; height: 60px; display: flex; justify-content: center; alignItems: center;">
+      <h4 style="font-weight: bold; cursor: pointer">Husky</h4>
+    </span>
+  </a>
+</div>
 
 ## Getting Started
 
