@@ -42,8 +42,10 @@
     "test:sb": "npm run test:clean && jest --maxWorkers=50%",
     "build:sb": "npm run clean:sb && npm run test:sb && build-storybook -s public",
     "clean:sb": "rimraf storybook-static",
-    "create:s": "plop --plopfile generators/sample/generator.js",
+    "create:cli": "plop --plopfile generators/cli.js",
+    "create:s": "plop --plopfile generators/samples/generator.js",
     "create:c": "plop --plopfile generators/component/generator.js",
+    "create:d": "plop --plopfile generators/docs/generator.js",
     "clean:all": "rimraf dist && rimraf storybook-static && rimraf coverage",
     "build:sb:clean": "npm run build:sb && npm run clean:all",
     "prepare": "husky install"

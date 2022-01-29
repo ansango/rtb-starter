@@ -5,28 +5,28 @@ module.exports = (plop) => {
       {
         type: "input",
         name: "name",
-        message: "What is your component name?",
+        message: "What is your component sample name?",
       },
     ],
     actions: [
       {
         type: "add",
-        path: "../../src/sample/{{pascalCase name}}/{{pascalCase name}}.tsx",
+        path: "../../src/samples/{{pascalCase name}}/{{pascalCase name}}.tsx",
         templateFile: "templates/component.tsx.hbs",
       },
       {
         type: "add",
-        path: "../../src/sample/{{pascalCase name}}/{{pascalCase name}}Styles.ts",
+        path: "../../src/samples/{{pascalCase name}}/{{pascalCase name}}Styles.ts",
         templateFile: "templates/styles.ts.hbs",
       },
       {
         type: "add",
-        path: "../../src/sample/{{pascalCase name}}/{{pascalCase name}}.stories.tsx",
+        path: "../../src/samples/{{pascalCase name}}/{{pascalCase name}}.stories.tsx",
         templateFile: "templates/stories.tsx.hbs",
       },
       {
         type: "add",
-        path: "../../src/sample/{{pascalCase name}}/{{pascalCase name}}.test.tsx",
+        path: "../../src/samples/{{pascalCase name}}/{{pascalCase name}}.test.tsx",
         templateFile: "templates/test.tsx.hbs",
       },
     ],
