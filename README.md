@@ -5,7 +5,7 @@
 
 <div align="center">
  <a href="https://github.com/ansango/rtb-starter">
-    <img src="images/logo.svg" alt="Logo" width="180" height="180">
+    <img src="static/logo.svg" alt="Logo" width="180" height="180">
   </a>
   <h1 align="center">React Tailwind Blocks - Starter</h1>
 
@@ -22,27 +22,26 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about">About</a></li>
+    <li><a href="#about">Introduction</a></li>
     <li><a href="#built-with">Built with</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#first-steps">First Steps</a></li>
-    <li><a href="#create-your-own-component-generators">Create your own Component Generators</a></li>
-    <li><a href="#test-lint--husky">Testing and lint</a></li>
-    <li><a href="#build-and-deploy-your-storybook">Build and deploy your Storybook</a></li>
-    <li><a href="#build-and-publish-your-library">Build and publish your library</a></li>
-    <li><a href="#install-your-own-library">Install your own library</a></li>
+    <li><a href="#create-a-component">Create a Component</a></li>
+    <li><a href="#test-and-lint">Test and Lint</a></li>
+    <li><a href="#build-deploy-and-install-your-package">Build, deploy and install your package</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
 
-## About
+## Introduction
+
+### About
 
 This project has been created to generate component libraries in [React](https://reactjs.org/).
 
 It is based on [React](https://reactjs.org/), [Tailwindcss](https://tailwindcss.com/), and [Storybook](https://storybook.js.org/). With this starter you can start writing isolated and tested components, ready to publish and consume as packages in [npm](https://www.npmjs.com/).
 
-## Built with
+### Built with
 
 - [_React_](https://reactjs.org/)
 - [_Typescript_](https://www.typescriptlang.org/)
@@ -70,11 +69,7 @@ and install the dependencies:
 yarn install # or npm install
 ```
 
-<p align="right"><a href="#top">back to top</a></p>
-
-## First Steps
-
-First, open the terminal and run:
+Then run in your terminal:
 
 ```bash
 yarn start
@@ -82,7 +77,15 @@ yarn start
 
 > This script runs Storybook in the development mode at [http://localhost:6006](http://localhost:6000)
 
-### Create a component
+<p align="right"><a href="#top">back to top</a></p>
+
+## Create a Component
+
+Open your terminal and run:
+
+```bash
+ yarn generate:c
+```
 
 ```bash
  yarn generate:c
@@ -197,7 +200,7 @@ CustomClass.args = {
 
 <p align="right"><a href="#top">back to top</a></p>
 
-## Create your own Component Generators
+### Create your own Component Generators
 
 To generate the templates I use [plop](https://plopjs.com/). You can create other modules in other different dependencies. Checkout `src/generators/sample` base.
 
@@ -213,7 +216,7 @@ Then add your script into `package.json` and run!
 
 <p align="right"><a href="#top">back to top</a></p>
 
-## Test, lint & Husky
+## Test and Lint
 
 You can run unit tests in **watch mode** or run all serial tests **in current process**:
 
@@ -234,11 +237,13 @@ Or run [ESLint](https://eslint.org/):
   yarn lint
 ```
 
-Before you can commit to your repository ESlint and all tests will be run, if they fail [Husky](https://typicode.github.io/husky/#/) will not let you commit.
+> Before you can commit to your repository ESlint and all tests will be run, if they fail [Husky](https://typicode.github.io/husky/#/) will not let you commit.
 
 <p align="right"><a href="#top">back to top</a></p>
 
-## Build and deploy your Storybook
+## Build, deploy and install your package
+
+### Build and deploy your Storybook
 
 It's easy, run the following script to compile your Storybook in **`/storybook-static` folder**:
 
@@ -250,7 +255,7 @@ It's easy, run the following script to compile your Storybook in **`/storybook-s
 
 <p align="right"><a href="#top">back to top</a></p>
 
-## Build and publish your library
+### Build and publish your library
 
 Build runs by [Rollup](https://rollupjs.org/) and its entry point is `src/index.ts` file.
 
@@ -273,7 +278,7 @@ Then run the following script and you can find the bundle in **`/dist` folder** 
 
 <p align="right"><a href="#top">back to top</a></p>
 
-## Install your own library
+### Install your own library
 
 Simple, install it!
 
@@ -315,7 +320,7 @@ These are current `peerDependencies` you must be in your new project (`package.j
 
 If you have problems, please open an [issue](https://github.com/ansango/rtb-starter/issues)
 
-<!-- CONTRIBUTING -->
+<p align="right"><a href="#top">back to top</a></p>
 
 ## Contributing
 

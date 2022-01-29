@@ -1731,6 +1731,28 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
+"@storybook/addon-a11y@^6.4.15":
+  version "6.4.15"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-6.4.15.tgz#4c5655bcdb0324486969a43ea6743c3a19ca8dbe"
+  integrity sha512-0cbxtQZHJx3Eb0CVhi0jo+kz28qRZ14OEQSsVVL3o9EuUCemnLiCq4cItnqUjUYmvHYY0KsbzJ6BxNcEIY2mBw==
+  dependencies:
+    "@storybook/addons" "6.4.15"
+    "@storybook/api" "6.4.15"
+    "@storybook/channels" "6.4.15"
+    "@storybook/client-logger" "6.4.15"
+    "@storybook/components" "6.4.15"
+    "@storybook/core-events" "6.4.15"
+    "@storybook/csf" "0.0.2--canary.87bc651.0"
+    "@storybook/theming" "6.4.15"
+    axe-core "^4.2.0"
+    core-js "^3.8.2"
+    global "^4.4.0"
+    lodash "^4.17.21"
+    react-sizeme "^3.0.1"
+    regenerator-runtime "^0.13.7"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
 "@storybook/addon-actions@6.4.15", "@storybook/addon-actions@^6.4.14":
   version "6.4.15"
   resolved "https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-6.4.15.tgz"
@@ -1911,6 +1933,26 @@
     global "^4.4.0"
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
+
+"@storybook/addon-storysource@^6.4.15":
+  version "6.4.15"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-6.4.15.tgz#56b2210ec8c78bc939818e2839dd0e73fa202c06"
+  integrity sha512-LXImZXzDSM6xBpLY2fyimg4Ehw9RwzvJX2awDSwN1zlbBFZF8AOSNk7xuWREYwUsW4hABvG8GPkz7UtUypkgOg==
+  dependencies:
+    "@storybook/addons" "6.4.15"
+    "@storybook/api" "6.4.15"
+    "@storybook/client-logger" "6.4.15"
+    "@storybook/components" "6.4.15"
+    "@storybook/router" "6.4.15"
+    "@storybook/source-loader" "6.4.15"
+    "@storybook/theming" "6.4.15"
+    core-js "^3.8.2"
+    estraverse "^5.2.0"
+    loader-utils "^2.0.0"
+    prettier ">=2.2.1 <=2.3.0"
+    prop-types "^15.7.2"
+    react-syntax-highlighter "^13.5.3"
+    regenerator-runtime "^0.13.7"
 
 "@storybook/addon-toolbars@6.4.15":
   version "6.4.15"
@@ -4224,7 +4266,7 @@ autoprefixer@^9.8.6:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
-axe-core@^4.3.5:
+axe-core@^4.2.0, axe-core@^4.3.5:
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.3.5.tgz#78d6911ba317a8262bfee292aeafcc1e04b49cc5"
   integrity sha512-WKTW1+xAzhMS5dJsxWkliixlO/PqC4VhmO9T4juNYcaTg9jzWiJsou6m5pxWYGfigWbwzJWeFY6z47a+4neRXA==

@@ -1,0 +1,26 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Readme/Test and Lint" />
+
+# Test and Lint
+
+You can run unit tests in **watch mode** or run all serial tests **in current process**:
+
+```bash
+yarn test:watch #watch mode
+yarn test:ci #current process
+```
+
+You can also run [ESlint](https://eslint.org/), tests and coverage:
+
+```bash
+yarn test
+```
+
+Or run [ESLint](https://eslint.org/):
+
+```bash
+yarn lint
+```
+
+> Before you can commit to your repository ESlint and all tests will be run, if they fail [Husky](https://typicode.github.io/husky/#/) will not let you commit.
