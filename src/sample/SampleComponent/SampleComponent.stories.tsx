@@ -2,8 +2,11 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import SampleComponent from "./SampleComponent";
 
 export default {
-  title: 'Samples/SampleComponent',
+  title: "Samples/SampleComponent",
   component: SampleComponent,
+  parameters: {
+    layout: "centered",
+  },
 } as ComponentMeta<typeof SampleComponent>;
 
 const Template: ComponentStory<typeof SampleComponent> = (args) => <SampleComponent {...args} />;

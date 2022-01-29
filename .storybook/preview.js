@@ -1,6 +1,7 @@
 import "../src/tailwind.css";
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
+  staticDirs: ["../assets"],
   controls: {
     matchers: {
       color: /(background|color)$/i,
