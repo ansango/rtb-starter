@@ -30,6 +30,7 @@
     <li><a href="#testing">Testing and lint</a></li>
     <li><a href="#storybook">Build and deploy your Storybook</a></li>
     <li><a href="#publish">Build and publish your library</a></li>
+    <li><a href="#">Install your own library</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
   </ol>
@@ -201,7 +202,7 @@ To generate the templates I use [plop](https://plopjs.com/). You can create othe
 
 Then add your script into `package.json` and run!
 
-```js
+```json
 // package.json
 {
   "scripts": {
@@ -269,6 +270,45 @@ Then run the following script and you can find the bundle in **`/dist` folder** 
 > To publish run `npm publish` (after login `npm login`)
 
 <p align="right"><a href="#top">back to top</a></p>
+
+## Install your own library
+
+Simple, install it!
+
+```bash
+yarn add {awesome-library} # or npm i {awesome-library}
+```
+
+Because we use Tailwindcss, we have to install and configure it. [Read the docs](https://tailwindcss.com/docs/installation).
+
+You have to add the following in your `tailwind.config.js`:
+
+```js
+module.exports = {
+  content: [
+    "./components/**/*.{html,js}",
+    "./pages/**/*.{html,js}",
+    "./node_modules/awesome-library/dist/**/*.{js,ts,jsx,tsx}",
+  ],
+  // ...
+};
+```
+
+> [See more](https://tailwindcss.com/docs/content-configuration#working-with-third-party-libraries)
+
+These are current `peerDependencies` you must be in your new project:
+
+```json
+//package.json
+{
+  "postcss": "^8.4.5",
+  "react": "^17.0.2",
+  "react-dom": "^17.0.2",
+  "tailwindcss": "^3.0.16"
+}
+```
+
+If you have problems, please open an [issue](https://github.com/ansango/rtb-starter/issues)
 
 <!-- CONTRIBUTING -->
 
