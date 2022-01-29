@@ -28,7 +28,8 @@
     "clean:sb": "rimraf storybook-static",
     "generate:s": "plop --plopfile generators/sample/generator.js",
     "generate:c": "plop --plopfile generators/component/generator.js",
-    "clean:all": "rimraf dist && rimraf storybook-static && rimraf coverage"
+    "clean:all": "rimraf dist && rimraf storybook-static && rimraf coverage",
+    "postinstall": "husky install"    
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
@@ -58,6 +59,7 @@
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.4",
     "jest": "^27.4.7",
     "plop": "^3.0.5",
     "postcss": "^8.4.5",
