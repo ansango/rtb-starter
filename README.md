@@ -23,13 +23,11 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about">Introduction</a></li>
-    <li><a href="#built-with">Built with</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#create-a-component">Create a Component</a></li>
     <li><a href="#test-and-lint">Test and Lint</a></li>
     <li><a href="#build-deploy-and-install-your-package">Build, deploy and install your package</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
