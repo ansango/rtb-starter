@@ -22,21 +22,21 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about">About the Project</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#built-with">Built with</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#usage">First Steps</a></li>
-    <li><a href="#roadmap">Create your own Component Generators</a></li>
-    <li><a href="#testing">Testing and lint</a></li>
-    <li><a href="#storybook">Build and deploy your Storybook</a></li>
-    <li><a href="#publish">Build and publish your library</a></li>
-    <li><a href="#">Install your own library</a></li>
+    <li><a href="#first-steps">First Steps</a></li>
+    <li><a href="#create-your-own-component-generators">Create your own Component Generators</a></li>
+    <li><a href="#test-lint--husky">Testing and lint</a></li>
+    <li><a href="#build-and-deploy-your-storybook">Build and deploy your Storybook</a></li>
+    <li><a href="#build-and-publish-your-library">Build and publish your library</a></li>
+    <li><a href="#install-your-own-library">Install your own library</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
 
-## Abut the Project
+## About
 
 This project has been created to generate component libraries in [React](https://reactjs.org/).
 
@@ -337,8 +337,6 @@ Don't forget to give the project a star! Thanks again!
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
