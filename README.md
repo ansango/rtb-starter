@@ -204,7 +204,6 @@ To generate the templates I use [plop](https://plopjs.com/). You can create othe
 Then add your script into `package.json` and run!
 
 ```json
-// package.json
 {
   "scripts": {
     "generate:s": "plop --plopfile generators/sample/generator.js"
@@ -299,15 +298,18 @@ module.exports = {
 
 > [See more](https://tailwindcss.com/docs/content-configuration#working-with-third-party-libraries)
 
-These are current `peerDependencies` you must be in your new project:
+These are current `peerDependencies` you must be in your new project (`package.json`):
 
 ```json
-//package.json
 {
-  "postcss": "^8.4.5",
-  "react": "^17.0.2",
-  "react-dom": "^17.0.2",
-  "tailwindcss": "^3.0.16"
+  "dependencies": {
+    "postcss": "^8.4.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.16"
+  }
 }
 ```
 
