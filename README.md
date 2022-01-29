@@ -1,4 +1,4 @@
-<div id="top"></div>
+Generate UI Component libraries with **React** and **Tailwindcss**
 
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -10,13 +10,15 @@
   <h1 align="center">React Tailwind Blocks - Starter</h1>
 
   <p align="center">
-    Generate UI Component libraries in
+    Generate UI Component libraries with
     <a href="https://reactjs.org/">React</a>
     <br />
     <br />
     <a href="https://github.com/ansango/rtb-starter/issues">Report a bug</a>
   </p>
 </div>
+
+<div id="top"></div>
 
 <details>
   <summary>Table of Contents</summary>
