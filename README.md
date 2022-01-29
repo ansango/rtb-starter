@@ -38,7 +38,9 @@ This project has been created to generate component libraries in [React](https:/
 
 It is based on [React](https://reactjs.org/), [Tailwindcss](https://tailwindcss.com/), and [Storybook](https://storybook.js.org/). With this starter you can start writing isolated and tested components, ready to publish and consume as packages in [npm](https://www.npmjs.com/).
 
-> The demo package is published in [npm](https://www.npmjs.com/package/rtb-starter)
+> The Storybook is **[here](https://rtb-starter.vercel.app/)**
+
+> The demo package is published in **[npm](https://www.npmjs.com/package/rtb-starter)**
 
 ### Built with
 
@@ -75,16 +77,11 @@ It is based on [React](https://reactjs.org/), [Tailwindcss](https://tailwindcss.
     <img src="assets/rollup.svg" width="60" height="60" />
   </a>
   <a href="https://plopjs.com/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
-    <span
-      style="width: 60px; height: 60px; display: flex; justify-content: center; alignItems: center;">
-      <h4 style="font-weight: bold; cursor: pointer">Plop.js</h4>
-    </span>
+  <img src="assets/plop.png" width="60" height="60" />
   </a>
 
   <a href="https://typicode.github.io/husky/" target="_blank" style="padding:0 5px 0 5px; text-align:center">
-    <span style="width: 60px; height: 60px; display: flex; justify-content: center; alignItems: center;">
-      <h4 style="font-weight: bold; cursor: pointer">Husky</h4>
-    </span>
+    <img src="assets/husky.png" width="60" height="60" />
   </a>
 </div>
 
