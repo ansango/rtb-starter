@@ -117,10 +117,6 @@ Open your terminal and run:
  yarn generate:c
 ```
 
-```bash
- yarn generate:c
-```
-
 > This script generates template files to coding a component. You will find all the files in `src/components` folder. Your component folder contains:
 
 - `Component.tsx` file:
