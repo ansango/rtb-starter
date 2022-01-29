@@ -11,14 +11,13 @@
 
   <p align="center">
     Generate UI Component libraries in
-    <a href="https://reactjs.org/">React</a>!
+    <a href="https://reactjs.org/">React</a>
     <br />
     <br />
     <a href="https://github.com/ansango/rtb-starter/issues">Report a bug</a>
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -335,7 +334,7 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- LICENSE -->
+> [Stars are welcome!](https://github.com/ansango/rtb-starter) ⭐⭐⭐
 
 ## License
 
