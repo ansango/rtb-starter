@@ -1,4 +1,6 @@
+const clear = require("clear");
 module.exports = (plop) => {
+  clear();
   plop.setHelper("lowercase", (text) => text.toLowerCase());
   plop.setGenerator("React Tailwind Blocks CLI", {
     description: "Create a React Tailwind Blocks CLI",
