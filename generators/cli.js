@@ -1,4 +1,5 @@
 module.exports = (plop) => {
+  plop.setHelper("lowercase", (text) => text.toLowerCase());
   plop.setGenerator("React Tailwind Blocks CLI", {
     description: "Create a React Tailwind Blocks CLI",
     prompts: [
@@ -22,19 +23,9 @@ module.exports = (plop) => {
         ],
       },
       {
-        type: "list",
+        type: "input",
         name: "type",
-        message: "What type of doc file is this?",
-        choices: [
-          {
-            name: "Readme",
-            value: "readme",
-          },
-          {
-            name: "System Design",
-            value: "system",
-          },
-        ],
+        message: "What is your doc section name?",
         when: (answers) => answers.kind === "docs",
       },
       {
@@ -89,19 +80,11 @@ module.exports = (plop) => {
           templateFile: "./samples/templates/test.tsx.hbs",
         });
       } else if (data.kind === "docs") {
-        if (data.type === "readme") {
-          actions.push({
-            type: "add",
-            path: "../src/docs/readme/{{pascalCase name}}.stories.mdx",
-            templateFile: "./docs/templates/stories.mdx.hbs",
-          });
-        } else {
-          actions.push({
-            type: "add",
-            path: "../src/docs/system/{{pascalCase name}}.stories.mdx",
-            templateFile: "./docs/templates/stories.mdx.hbs",
-          });
-        }
+        actions.push({
+          type: "add",
+          path: "../src/docs/{{lowercase type}}/{{pascalCase name}}.stories.mdx",
+          templateFile: "./docs/templates/stories.mdx.hbs",
+        });
       } else {
         throw new Error("Unknown kind in", data);
       }
