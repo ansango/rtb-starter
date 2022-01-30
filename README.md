@@ -109,7 +109,7 @@ yarn start # npm start
 
 > This runs a script manager, then you can choose what you want to do. 😄
 
-<div style="display:flex; justify-content:center; padding:50px 0;">
+<div align="center">
   <img src="assets/readme/manager.png" width="650">
 </div>
 
@@ -125,7 +125,7 @@ Open your terminal and run:
 
 With the CLI you can choose what you want to create, choose a component and type a name:
 
-<div style="display:flex; justify-content:center; padding:50px 0;">
+<div align="center">
   <img src="assets/readme/component.png" width="650">
 </div>
 
@@ -242,7 +242,7 @@ CustomClass.args = {
 
 Storybook supports .mdx files, so we will create our flat documentation this way. To do this we go back to our CLI and select the docs option. Type a section and a name and that's all 😄
 
-<div style="display:flex; justify-content:center; padding:50px 0;">
+<div align="center">
   <img src="assets/readme/docs.png" width="650">
 </div>
 
@@ -264,19 +264,19 @@ import { Meta } from "@storybook/addon-docs";
 
 You can run tests:
 
-<div style="display:flex; justify-content:center; padding:50px 0;">
+<div align="center">
   <img src="assets/readme/test.png" width="650">
 </div>
 
 Or you can also run unit tests in **watch mode**:
 
-<div style="display:flex; justify-content:center; padding:50px 0;">
+<div align="center">
   <img src="assets/readme/watch.png" width="650">
 </div>
 
 You can run lint, [ESLint](https://eslint.org/):
 
-<div style="display:flex; justify-content:center; padding:50px 0;">
+<div align="center">
   <img src="assets/readme/lint.png" width="650">
 </div>
 
@@ -290,7 +290,7 @@ You can run lint, [ESLint](https://eslint.org/):
 
 It's easy, to compile your Storybook in **`/storybook-static` folder** run:
 
-<div style="display:flex; justify-content:center; padding:50px 0;">
+<div align="center">
   <img src="assets/readme/sb.png" width="650">
 </div>
 
@@ -313,7 +313,7 @@ export { Button };
 
 Then **run**:
 
-<div style="display:flex; justify-content:center; padding:50px 0;">
+<div align="center">
   <img src="assets/readme/publish.png" width="650">
 </div>
 
