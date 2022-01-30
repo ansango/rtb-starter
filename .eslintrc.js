@@ -29,5 +29,5 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/consistent-type-definitions": ["error", "type"],
   },
-  ignorePatterns: ["rollup.config.js", "/generators/**"],
+  ignorePatterns: ["rollup.config.js", "/generators/**", "/cli/**"],
 };
