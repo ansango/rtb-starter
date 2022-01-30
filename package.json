@@ -113,5 +113,9 @@
   },
   "files": [
     "/dist"
-  ]
+  ],
+  "dependencies": {
+    "chalk": "4.1.0",
+    "figlet": "^1.5.2"
+  }
 }

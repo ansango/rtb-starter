@@ -1,6 +1,16 @@
+const chalk = require("chalk");
 const clear = require("clear");
+const figlet = require("figlet");
 module.exports = (plop) => {
   clear();
+  console.log(
+    chalk.blue(
+      figlet.textSync("RTBlocks", {
+        horizontalLayout: "default",
+        verticalLayout: "default",
+      })
+    )
+  );
   plop.setHelper("lowercase", (text) => text.toLowerCase());
   plop.setGenerator("React Tailwind Blocks CLI", {
     description: "Create a React Tailwind Blocks CLI",
