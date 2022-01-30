@@ -37,7 +37,7 @@
     "lint": "clear && eslint src/**/*.{js,jsx,ts,tsx}",
     "test": "clear && npm run clean:t && jest --maxWorkers=50%",
     "test:w": "clear && jest --watch --maxWorkers=25%",
-    "test:sb": "clear && npm run clean:t && jest --maxWorkers=50%",
+    "test:sb": "npm run clean:t && jest --maxWorkers=50%",
     "build": "clear && npm run clean:d && npm run test && rollup -c",
     "build:sb": "npm run clean:sb && npm run test:sb && build-storybook -s public",
     "clean:t": "rimraf coverage",
