@@ -89,7 +89,7 @@ It is based on [React](https://reactjs.org/), [Tailwindcss](https://tailwindcss.
 
 ## Getting Started
 
-Use this templete or:
+Use Github templete or:
 
 ```bash
 git clone https://github.com/ansango/rtb-starter.git
@@ -107,7 +107,11 @@ Then run in your terminal:
 yarn start
 ```
 
-> This script runs Storybook in the development mode at [http://localhost:6006](http://localhost:6000)
+> This runs a script manager, then you can choose what you want to do. 😄
+
+<div style="display:flex; justify-content:center; padding:50px 0;">
+  <img src="assets/readme/manager.png" width="650">
+</div>
 
 <p align="right"><a href="#top">back to top</a></p>
 
@@ -116,10 +120,16 @@ yarn start
 Open your terminal and run:
 
 ```bash
- yarn generate:c
+ yarn cli # or select "cli" option in the Script Manager
 ```
 
-> This script generates template files to coding a component. You will find all the files in `src/components` folder. Your component folder contains:
+With the CLI you can choose what you want to create, choose a component and type a name:
+
+<div style="display:flex; justify-content:center; padding:50px 0;">
+  <img src="assets/readme/component.png" width="650">
+</div>
+
+> This generates template files to coding a component. You will find all the files in `src/components` folder. Your component folder contains:
 
 - `Component.tsx` file:
 
@@ -228,44 +238,49 @@ CustomClass.args = {
 
 <p align="right"><a href="#top">back to top</a></p>
 
-### Create your own Component Generators
+### Create plain Docs pages
 
-To generate the templates I use [plop](https://plopjs.com/). You can create other modules in other different dependencies. Checkout `src/generators/sample` base.
+Storybook supports .mdx files, so we will create our flat documentation this way. To do this we go back to our CLI and select the docs option. Type a section and a name and that's all 😄
 
-Then add your script into `package.json` and run!
+<div style="display:flex; justify-content:center; padding:50px 0;">
+  <img src="assets/readme/docs.png" width="650">
+</div>
 
-```json
-{
-  "scripts": {
-    "generate:s": "plop --plopfile generators/sample/generator.js"
-  }
-}
+> This generates template file write "plain" docs as Markdown files. You will find all the files in `src/docs` folder. Your doc file contains:
+
+```md
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Sample/Sample" />import { Meta } from "@storybook/addon-docs";
+
+# Sample
+
+...
 ```
 
 <p align="right"><a href="#top">back to top</a></p>
 
 ## Test and Lint
 
-You can run unit tests in **watch mode** or run all serial tests **in current process**:
+You can run tests:
 
-```bash
- yarn test:watch #watch mode
- yarn test:ci #current process
-```
+<div style="display:flex; justify-content:center; padding:50px 0;">
+  <img src="assets/readme/test.png" width="650">
+</div>
 
-You can also run [ESlint](https://eslint.org/), tests and coverage:
+Or you can also run unit tests in **watch mode**:
 
-```bash
- yarn test
-```
+<div style="display:flex; justify-content:center; padding:50px 0;">
+  <img src="assets/readme/watch.png" width="650">
+</div>
 
-Or run [ESLint](https://eslint.org/):
+You can run lint, [ESLint](https://eslint.org/):
 
-```bash
-  yarn lint
-```
+<div style="display:flex; justify-content:center; padding:50px 0;">
+  <img src="assets/readme/lint.png" width="650">
+</div>
 
-> Before you can commit to your repository ESlint and all tests will be run, if they fail [Husky](https://typicode.github.io/husky/#/) will not let you commit.
+> Before you can commit to your repository [ESLint](https://eslint.org/) and all tests will be run, if they fail [Husky](https://typicode.github.io/husky/#/) will not let you commit.
 
 <p align="right"><a href="#top">back to top</a></p>
 
@@ -273,11 +288,11 @@ Or run [ESLint](https://eslint.org/):
 
 ### Build and deploy your Storybook
 
-It's easy, run the following script to compile your Storybook in **`/storybook-static` folder**:
+It's easy, to compile your Storybook in **`/storybook-static` folder** run:
 
-```bash
- yarn build:dist
-```
+<div style="display:flex; justify-content:center; padding:50px 0;">
+  <img src="assets/readme/sb.png" width="650">
+</div>
 
 > Easy to do at [Vercel](https://vercel.com/).
 
@@ -296,11 +311,13 @@ import Button from "./components/Button/Button";
 export { Button };
 ```
 
-Then run the following script and you can find the bundle in **`/dist` folder** to be published at [npm](https://docs.npmjs.com/cli/v8/commands/npm-publish):
+Then **run**:
 
-```bash
- yarn build:dist
-```
+<div style="display:flex; justify-content:center; padding:50px 0;">
+  <img src="assets/readme/publish.png" width="650">
+</div>
+
+> You can find the bundle in **`/dist` folder** to be published at [npm](https://docs.npmjs.com/cli/v8/commands/npm-publish)
 
 > To publish run `npm publish` (after login `npm login`)
 

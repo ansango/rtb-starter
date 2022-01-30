@@ -11,6 +11,14 @@ module.exports = (plop) => {
       })
     )
   );
+  plop.setHelper("splitCapitalize", (text) => {
+    return text
+      .split(" ")
+      .map((word) => {
+        return word.charAt(0).toUpperCase() + word.slice(1);
+      })
+      .join(" ");
+  });
   plop.setHelper("lowercase", (text) => text.toLowerCase());
   plop.setGenerator("React Tailwind Blocks CLI", {
     description: "Create a React Tailwind Blocks CLI",
