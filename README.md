@@ -104,7 +104,7 @@ yarn install # or npm install
 Then run in your terminal:
 
 ```bash
-yarn start
+yarn start # npm start
 ```
 
 > This runs a script manager, then you can choose what you want to do. 😄

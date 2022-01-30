@@ -1,5 +1,8 @@
 import { Meta } from "@storybook/addon-docs";
 
+import image from "../../../assets/readme/component.png";
+import docs from "../../../assets/readme/docs.png";
+
 <Meta title="Readme/Create a Component" />
 
 # Create a Component
@@ -7,10 +10,16 @@ import { Meta } from "@storybook/addon-docs";
 Open your terminal and run:
 
 ```bash
- yarn generate:c
+ yarn cli # or select "cli" option in the Script Manager
 ```
 
-> This script generates template files to coding a component. You will find all the files in `src/components` folder. Your component folder contains:
+With the **CLI** you can choose what you want to create, **choose a component and type a name**:
+
+<div style={{ display: "flex", justifyContent: "center", padding: "50px 0" }}>
+  <img src={image} width="650" />
+</div>
+
+> This generates template files to coding a component. You will find all the files in `src/components` folder. Your component folder contains:
 
 - `Component.tsx` file:
 
@@ -117,24 +126,22 @@ CustomClass.args = {
 };
 ```
 
-<p align="right">
-  <a href="#top">back to top</a>
-</p>
+### Create plain Docs pages
 
-## Create your own Component Generators
+Storybook supports **.mdx files**, so we will create our flat documentation this way. To do this we go back to our CLI and select the docs option. Type a section and a name and that's all 😄
 
-To generate the templates I use [plop](https://plopjs.com/). You can create other modules in other different dependencies. Checkout `src/generators/sample` base.
+<div style={{ display: "flex", justifyContent: "center", padding: "50px 0" }}>
+  <img src={docs} width="650" />
+</div>
 
-Then add your script into `package.json` and run!
+> This generates template file write "plain" docs as Markdown files. You will find all the files in `src/docs` folder. **Your doc file contains**:
 
-```json
-{
-  "scripts": {
-    "generate:s": "plop --plopfile generators/sample/generator.js"
-  }
-}
+```md
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Sample/Sample" />import { Meta } from "@storybook/addon-docs";
+
+# Sample
+
+...
 ```
-
-<p align="right">
-  <a href="#top">back to top</a>
-</p>

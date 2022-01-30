@@ -1,26 +1,29 @@
 import { Meta } from "@storybook/addon-docs";
 
+import test from "../../../assets/readme/test.png";
+import watch from "../../../assets/readme/watch.png";
+import lint from "../../../assets/readme/lint.png";
+
 <Meta title="Readme/Test and Lint" />
 
 # Test and Lint
 
-You can run unit tests in **watch mode** or run all serial tests **in current process**:
+**You can run tests**:
 
-```bash
-yarn test:watch #watch mode
-yarn test:ci #current process
-```
+<div style={{ display: "flex", justifyContent: "center", padding: "50px 0" }}>
+  <img src={test} width="650" />
+</div>
 
-You can also run [ESlint](https://eslint.org/), tests and coverage:
+Or you can also run unit tests in **watch mode**:
 
-```bash
-yarn test
-```
+<div style={{ display: "flex", justifyContent: "center", padding: "50px 0" }}>
+  <img src={watch} width="650" />
+</div>
 
-Or run [ESLint](https://eslint.org/):
+You can run lint, **[ESLint](https://eslint.org/)**:
 
-```bash
-yarn lint
-```
+<div style={{ display: "flex", justifyContent: "center", padding: "50px 0" }}>
+  <img src={lint} width="650" />
+</div>
 
-> Before you can commit to your repository ESlint and all tests will be run, if they fail [Husky](https://typicode.github.io/husky/#/) will not let you commit.
+> Before you can commit to your repository [ESLint](https://eslint.org/) and all tests will be run, if they fail [Husky](https://typicode.github.io/husky/#/) will not let you commit.
