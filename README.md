@@ -113,15 +113,7 @@ yarn start # npm start
   <img src="assets/readme/manager.png" width="650">
 </div>
 
-> ⚠️ The CLI works great in **`bash`**, but in **`powershell`** the arrows do not allow you to select anything, so you can run create component or document.
-
-<div align="center">
-  <img src="assets/readme/clicomp.png" width="650">
-</div>
-
-<div align="center">
-  <img src="assets/readme/clidoc.png" width="650">
-</div>
+> ⚠️ The CLI works fine in **`bash`**, but in **`powershell`** the arrows do not allow you to select anything, so you will have to create the files manually. **[This is a bug in the Node core on Windows](https://github.com/SBoudrias/Inquirer.js/issues/793).**
 
 
 <p align="right"><a href="#top">back to top</a></p>

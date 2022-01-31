@@ -31,10 +31,8 @@
     "tailwindcss": "^3.0.16"
   },
   "scripts": {
-    "start": "clear && ntl -s 12 -e start test:sb prepare",
+    "start": "ntl -s 12 -e start test:sb prepare",
     "cli": "plop --plopfile cli/index.js",
-    "cli:c": "plop --plopfile cli/component.js",
-    "cli:d": "plop --plopfile cli/doc.js",
     "dev": "start-storybook -p 6006 -s public",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
     "test": "npm run clean:t && jest --maxWorkers=50%",
@@ -51,8 +49,6 @@
   "ntl": {
     "descriptions": {
       "cli": "Start CLI",
-      "cli:c": "Start CLI for component",
-      "cli:d": "Start CLI for documentation",
       "dev": "Start development server",
       "lint": "Lint code",
       "test": "Run tests",
