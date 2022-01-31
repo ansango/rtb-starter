@@ -113,6 +113,17 @@ yarn start # npm start
   <img src="assets/readme/manager.png" width="650">
 </div>
 
+> ⚠️ The CLI works great in **`bash`**, but in **`powershell`** the arrows do not allow you to select anything, so you can run create component or document.
+
+<div align="center">
+  <img src="assets/readme/clicomp.png" width="650">
+</div>
+
+<div align="center">
+  <img src="assets/readme/clidoc.png" width="650">
+</div>
+
+
 <p align="right"><a href="#top">back to top</a></p>
 
 ## Create a Component
